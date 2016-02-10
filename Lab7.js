@@ -20,22 +20,17 @@ var shoppingList =[
 ]
 
 
-//loop to get total
-for (var i = 0; i<shoppingList.length; i++){
-	total += shoppingList[i].price;
-}
-
-console.log(total);
-
 
 // Used this to check if I formatted the Array correctly
 //console.log(shoppingList[0]);
 
 // This lists out all the items and prices
 shoppingList.forEach(function(listAll) {
-   console.log(listAll);
+  total += listAll.price;
+  console.log(listAll.item +"....."+ listAll.price);
 });
 
+console.log("Total : " +total);
 
 
 
