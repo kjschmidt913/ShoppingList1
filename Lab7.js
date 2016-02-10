@@ -20,7 +20,7 @@ var shoppingList =[
 ]
 
 
-//Edwin helped with this for loop
+//loop to get total
 for (var i = 0; i<shoppingList.length; i++){
 	total += shoppingList[i].price;
 }
@@ -37,12 +37,5 @@ shoppingList.forEach(function(listAll) {
 });
 
 
-// This finds the total
-// function findTotal () {
-// 	console.log("$" + (shoppingList[0].price + shoppingList[1].price + shoppingList[2].price + shoppingList[3].price));
-// };
 
 
-
-
-// console.log(findTotal());
